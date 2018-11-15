@@ -14,9 +14,9 @@
     <property name="source" value="1.8"/>
 
 	<!-- class path -->
-    <path id="ant-web.classpath">
+    <path id="html5-css3-01.classpath">
         <pathelement location="${build.path}/classes"/>
-    	<!-- path refid="Jar Path"/ -->
+    	<path refid="Jar Path"/>
         <path refid="Web App Libraries.libraryclasspath"/>
         <path refid="EAR Libraries.libraryclasspath"/>
     	<path refid="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath"/>
