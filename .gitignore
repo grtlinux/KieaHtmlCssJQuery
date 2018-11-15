@@ -9,8 +9,11 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-bin/
-classes/
+/bin/
+/classes/
+/target/
+/build/
+/war/
 
 # Package Files #
 #*.jar
